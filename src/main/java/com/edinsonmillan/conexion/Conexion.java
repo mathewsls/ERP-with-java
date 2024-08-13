@@ -10,8 +10,9 @@ import java.util.logging.Logger;
 public class Conexion {
     
     private static final String USER = "root"; 
-    private static final String PASSWORD = "admin";
-    private static final String URL = "jdbc:mysql://localhost:3306/inventariodb?zeroDateTimeBehavior=CONVERT_TO_NULL";
+    private static final String PASSWORD = "N4HOW20jPH";
+    private static final String URL = 
+    "jdbc:mysql://node196921-adso-sena.jelastic.saveincloud.net:3306/inventariodb?zeroDateTimeBehavior=CONVERT_TO_NULL";
 
     public static Connection getConeccion() throws SQLException {
         try {
